@@ -17,10 +17,10 @@ body{
 
 	font-family: Arial;
 	background-image: url(image/h.png);
-	background-size: 1600px 700px;
+	background-size: 1600px 650px;
 	background-repeat: no-repeat;
 	background-position: center top;
-	margin-top: -60;
+	
 
 
 }
@@ -28,16 +28,13 @@ a{
 	display:inline-block;
 }
 #govno{
-	
-	
-	margin: 0px;
-	margin-top: 645px;
+	margin-top: 555px;
 	 
 }
 #menu{
 	background:#233c46;
-	height: 60px;
-	line-height: 60px;
+	height: 50px;
+	line-height: 50px;
 	text-align: center;
 	
 
@@ -222,14 +219,17 @@ padding-bottom: 40px;
 #delivery{
 	width: 900px;
 	margin: 0 auto;
+	margin-top: 60px;
 
 }
 #bar{
+	display: inline-block;
+	float: left;
 	width: 350px;
-	margin-left: 0;
+	margin-top: 0;
 }
 #bar > p{
-	margin-top: 40px;
+	
 	font-size: 32px;
 }
 #bar > ul{
@@ -335,7 +335,7 @@ padding-bottom: 40px;
  }
  #footer{
  	background:#063142;
- 	height: 900px;
+ 	height: 820px;
  }
  #footer1{
  	
@@ -422,6 +422,19 @@ padding-bottom: 40px;
  #offi{
  	font-size: 28px;
  }
- script{
+ #map{
  	display: inline-block;
+
  }
+.clear{
+ 	clear:both;
+}
+#map-footer{
+	margin-top: 30px;
+}
+#foot{
+	margin-top: 5px;
+	text-align: center;
+	font-size: 24px;
+	color: #333333;
+}
